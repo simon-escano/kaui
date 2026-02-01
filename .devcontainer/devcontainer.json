@@ -1,0 +1,16 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/typescript-node",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "configureZshAsDefaultShell": true
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dsznajder.es7-react-js-snippets",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
+}
